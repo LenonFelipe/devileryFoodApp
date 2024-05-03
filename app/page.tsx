@@ -1,11 +1,7 @@
-const Name = "";
-console.log(Name);
+import Header from "./_components/ui/header";
+
 const Home = () => {
-  return (
-    <div>
-      <h1>Bem vindo</h1>
-    </div>
-  );
+  return <Header />;
 };
 
 export default Home;
